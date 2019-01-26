@@ -1,23 +1,20 @@
 ---
-title: Jeffrey W. Hollister
+title: "Jeffrey W. Hollister"
+updated: yes
+contact: |
+  | U.S. Environmental Protection Agency  
+  | Atlantic Ecology Division  
+  | 27 Tarzwell Drive  
+  | Narragansett, RI 02881  
+  | (o)401 782 9655  
+  | (c)401 556 4087
+  | [hollister.jeff@epa.gov](hollister.jeff@epa.gov)  
+  | [jwhollister.com](http://jwhollister.com)
+  | ORCID: [0000-0002-9254-9740](https://orcid.org/0000-0002-9254-9740)
 output:
-  pdf_document: default
-  html_document: default
+  pdf_document:
+    template: cv.latex
 ---
-
-
-\begin{center}
-updated: `r format(Sys.time(), "%Y-%m-%d")`\newline 
-U.S. Environmental Protection Agency\newline
-Atlantic Ecology Division\newline
-27 Tarzwell Drive\newline
-Narragansett, RI 02881\newline
-(o)401 782 9655\newline
-(c)401 556 4087\newline
-\href{mailto:hollister.jeff@epa.gov}{hollister.jeff@epa.gov}\newline  
-\href{http://jwhollister.com}{jwhollister.com}\newline
-ORCID: \href{https://orcid.org/0000-0002-9254-9740}{0000-0002-9254-9740}\newline  
-\end{center}
 
 ## Education
 

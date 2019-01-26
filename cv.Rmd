@@ -5,6 +5,7 @@ output:
   html_document: default
 ---
 
+
 \begin{center}
 updated: `r format(Sys.time(), "%Y-%m-%d")`\newline 
 U.S. Environmental Protection Agency\newline
@@ -13,7 +14,7 @@ Atlantic Ecology Division\newline
 Narragansett, RI 02881\newline
 (o)401 782 9655\newline
 (c)401 556 4087\newline
-[hollister.jeff@epa.gov](hollister.jeff@epa.gov)\newline  
+\href{mailto:hollister.jeff@epa.gov}{hollister.jeff@epa.gov}\newline  
 \href{http://jwhollister.com}{jwhollister.com}\newline
 ORCID: \href{https://orcid.org/0000-0002-9254-9740}{0000-0002-9254-9740}\newline  
 \end{center}

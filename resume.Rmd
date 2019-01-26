@@ -1,7 +1,12 @@
 ---
-output: 
-  word_document:
-    reference_doc: resume_template.docx
+title: "Jeffrey W. Hollister"
+email: "jeff.w.hollister@gmail.com"
+website: https://jwhollister.com
+github: https://github.com/jhollist
+phone: "401-556-4087"
+output:
+  pdf_document:
+    template: resume.latex
 ---
 
 # Summary

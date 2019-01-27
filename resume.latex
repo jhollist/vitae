@@ -148,7 +148,16 @@ $endif$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%Packages and layout changes by @jhollist 09/15/2014
+%%Packages and layout changes by @jhollist 2019-01-26
+\newenvironment{changetop}[1]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\topmargin}{#1}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
 \usepackage{ragged2e}
 \usepackage[font=$capsize$]{caption}
 $if(spacing)$
@@ -170,24 +179,35 @@ $endif$
 
 \begin{document}
 %%Edited by @jhollist 09/15/2014
+\begin{changetop}{-1.5in}
+\begin{center}
+\noindent\rule{18cm}{0.4pt}
+\end{center}
 %%Adds title from YAML
 $if(title)$
 \begin{center}
 \huge $title$
 \end{center}
 $endif$
-%%Adds contact and updated date info from YAML
-$if(updated)$
+%%Adds contact info from YAML
 \begin{center}
-\large updated: \today
-\end{center}
+$if(email)$
+\large email: $email$
 $endif$
-$if(contact)$
+$if(website)$
+\large website: $website$ \newline
+$endif$
+$if(github)$
+\large github: $github$
+$endif$
+$if(phone)$
+\large cell: $phone$
+$endif$
+\end{center}
 \begin{center}
-\large $contact$
+\noindent\rule{18cm}{0.4pt}
 \end{center}
-$endif$
-
+\end{changetop}
 $body$
 
 \end{document}

@@ -132,11 +132,11 @@ $endif$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Changes borrowed from @cboettig, added by @jhollist 
 % A modified page layout 
-\textwidth 6.75in
-\oddsidemargin -0.15in
-\evensidemargin -0.15in
-\textheight 9in
-\topmargin -0.5in
+%\textwidth 7.5in
+%\oddsidemargin -0.15in
+%\evensidemargin -0.15in
+%\textheight 10in
+%\topmargin -0.5in
 \usepackage{lineno} % add 
 $if(linenumbers)$
   \linenumbers % turns line numbering on 
@@ -149,15 +149,6 @@ $endif$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Packages and layout changes by @jhollist 2019-01-26
-\newenvironment{changetop}[1]{%
-\begin{list}{}{%
-\setlength{\topsep}{0pt}%
-\setlength{\topmargin}{#1}%
-\setlength{\listparindent}{\parindent}%
-\setlength{\itemindent}{\parindent}%
-\setlength{\parsep}{\parskip}%
-}%
-\item[]}{\end{list}}
 \usepackage{ragged2e}
 \usepackage[font=$capsize$]{caption}
 $if(spacing)$
@@ -171,7 +162,7 @@ $endif$
 $if(footerdate)$
   \rfoot{\today}
 $endif$
-\lfoot{\thepage}
+%\lfoot{\thepage}
 \renewcommand{\labelitemi}{}
 \widowpenalties 1 10000
 \raggedbottom
@@ -179,9 +170,9 @@ $endif$
 
 \begin{document}
 %%Edited by @jhollist 09/15/2014
-\begin{changetop}{-1.5in}
 \begin{center}
-\noindent\rule{18cm}{0.4pt}
+\vspace*{-0.6in}
+\noindent\rule{7in}{0.4pt}
 \end{center}
 %%Adds title from YAML
 $if(title)$
@@ -192,22 +183,23 @@ $endif$
 %%Adds contact info from YAML
 \begin{center}
 $if(email)$
-\large email: $email$
+email: $email$
 $endif$
 $if(website)$
-\large website: $website$ \newline
-$endif$
-$if(github)$
-\large github: $github$
-$endif$
-$if(phone)$
-\large cell: $phone$
+website: $website$
 $endif$
 \end{center}
 \begin{center}
-\noindent\rule{18cm}{0.4pt}
+$if(github)$
+github: $github$
+$endif$
+$if(phone)$
+cell: $phone$
+$endif$
 \end{center}
-\end{changetop}
+\begin{center}
+\noindent\rule{7in}{0.4pt}
+\end{center}
 $body$
 
 \end{document}

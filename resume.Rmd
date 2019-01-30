@@ -4,7 +4,8 @@ email: "jeff.w.hollister@gmail.com"
 website: https://jwhollister.com
 github: https://github.com/jhollist
 phone: "401-556-4087"
-output:
+geometry: "left=0.75in,right=0.75in,top=0.5in,bottom=0.5in"
+output: 
   pdf_document:
     template: resume.latex
 ---

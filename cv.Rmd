@@ -11,6 +11,7 @@ contact: |
   | [hollister.jeff@epa.gov](hollister.jeff@epa.gov)  
   | [jwhollister.com](http://jwhollister.com)
   | ORCID: [0000-0002-9254-9740](https://orcid.org/0000-0002-9254-9740)
+geometry: "left=0.75in,right=0.75in,top=0.55in,bottom=0.5in"
 output:
   pdf_document:
     template: cv.latex
@@ -134,7 +135,7 @@ output:
   
 Submitted
       
-  - Nojavan, F. A., B. J. Kreakie, J. W. Hollister, S. S. Qian. (Submitted). Rethinking the Lake Trophic State Index. Ecological Indicators. [GitHub](https://github.com/USEPA/rethinking_tsi)
+  - Nojavan, F. A., B. J. Kreakie, J. W. Hollister, S. S. Qian. (Submitted). Rethinking the Lake Trophic State Index. PeerJ. [GitHub](https://github.com/USEPA/rethinking_tsi)
        
 2010 - Present
   
@@ -237,11 +238,15 @@ Submitted
 
 2010 - Present
       
+  - Hollister, J. W. (2017). dadjoke: Return a Random Dad Joke. Version 0.1.1 [GitHub](https://github.com/jhollist/dadjoke)
+  
   - Hollister, J. W. (2016). elevatr: Download Elevation Datasets from Various APIs.  Version 0.1.1 [CRAN](https://cran.r-project.org/package=elevatr) [GitHub](http://www.github.com/jhollist/elevatr) 
       
   - Hollister, J. W. and J. J. Stachelek. (2016). lakemorpho: Lake morphometry in R. Version 1.1.0  [CRAN](https://cran.r-project.org/package=lakemorpho) [GitHub](http://www.github.com/jhollist/lakemorpho)  [10.5281/zenodo.51415](http://dx.doi.org/10.5281/zenodo.51415)
      
-  - Hollister, J. W. (2015). quickmapr: Quickly Map and Explore Spatial Data. Version 0.1.1.  [CRAN](https://cran.r-project.org/package=quickmapr)  [GitHub](https://github.com/jhollist/quickmapr) [10.5281/zenodo.33135](http://dx.doi.org/10.5281/zenodo.33135)
+  - Hollister, J. W. (2016). quickmapr: Quickly Map and Explore Spatial Data. Version 0.1.1.  [CRAN](https://cran.r-project.org/package=quickmapr)  [GitHub](https://github.com/jhollist/quickmapr) [10.5281/zenodo.33135](http://dx.doi.org/10.5281/zenodo.33135)
+  
+  -Chamberlain, S, and J. W. Hollister (2015). lawn: R Client for turf.js for Geospatial Analysis. Version 0.1.4. [CRAN](https://cran.r-project.org/package=lawn) [GitHub](https://github.com/ropensci/lawn)
       
   - Hollister, J. W. (2014). manuscriptPackage: Template package for creating manuscript within an R Package. Version 0.1.  [GitHub](https://github.com/jhollist/manuscriptPackage)
 
@@ -250,7 +255,7 @@ Submitted
 
 2010 - Present
   
-  - Hollister, J. W., N. Ross, and C. McCrowey (2019). Introduction to R.  Workshop at 2nd Annual USEPA R Users Group Meeting.  Durham, NC. March 2019. [GitHub](https://github.com/uspa/intro_r_workshop)
+  - Litterman, R., S. Shivers, H. Dekker, R. Schwartz, and J. W. Hollister. (2019). Data Carpentry Social Science Workshop. Co-hosted with rhodyRstats and URI Coastal Institute. University of Rhode Island, Kingston, RI. January 2019. [GitHub](https://rhodyrstats.github.io/2019-01-15-uri/).
       
   - Hollister, J. W. (2018). Introduction to R. US EPA Region 2 Regional Offices. New York, NY. June 5-6, 2018. [GitHub](https://github.com/usepa/region2_r)
       
@@ -438,7 +443,7 @@ Prior to 2000
 
 R  
   
-  - I started using R in 2003 for data analysis and have been using it daily for basic computing and programming tasks since 2011.  I have created packages with four on CRAN ([quickmapr](https://cran.r-project.org/web/packages/quickmapr/index.html), [lakemorpho](https://cran.r-project.org/web/packages/lakemorpho/index.html), [elevatr](https://cran.r-project.org/web/packages/elevatr/index.html), and [lawn](https://cran.r-project.org/web/packages/lawn/index.html)) and several in development on [GitHub](https://github.com/jhollist). I co-moderate (with Sarah Goslee) the R-SIG-Ecology mailing list, and have taught several classes/workshops on R.  I am the lead maintainer of [rOpenSci's Maptools CRAN Taskview](https://github.com/ropensci/maptools), I contribute to both the development of [lawn: an R client for turf.js](https://github.com/ropensci/lawn) and the [Reproducibility Guide](http://ropensci.github.io/reproducibility-guide/).
+  - I started using R in 2003 for data analysis and have been using it daily for basic computing and programming tasks since 2011.  I have created packages with four on CRAN ([quickmapr](https://cran.r-project.org/web/packages/quickmapr/index.html), [lakemorpho](https://cran.r-project.org/web/packages/lakemorpho/index.html), [elevatr](https://cran.r-project.org/web/packages/elevatr/index.html), and [lawn](https://cran.r-project.org/web/packages/lawn/index.html)) and several in development on [GitHub](https://github.com/jhollist). I co-moderate (with Sarah Goslee) the R-SIG-Ecology mailing list, and have taught several classes/workshops on R.  I have been active with the [rOpenSci](https://ropensci.org/) community since 2014 through package reviews, remote participation in hackathons, and contributions to the `lawn` package.  
   
 Web
   

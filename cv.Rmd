@@ -527,6 +527,8 @@ Misc
 **Awards**
 
 2010 - Present
+
+  - Best Use of GitHub Award, April 2019, bestowed by Emily Stanley for my GitHub pancake recipe repository. [Award Announcement Tweet] (https://twitter.com/EStanLimnology/status/1117081254321643521)
   
   - US EPA, 2015 Bronze Medal for Commendable Service to the Safe and Sustainable Water Resources National Program Tream
       

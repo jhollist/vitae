@@ -109,9 +109,13 @@ output:
 
 ## Teaching
 
+**Nov 2016 - Present** Adjunct Associate Professor, University of Rhode Island, Department of Natural Resources Science, Kingston, RI
+
+  - Team taught, with Drs. Rachel Schwartz and Harrison Dekker, [Special Topics in Biology: Shiny apps for effective scientific communication](https://rhodyrstats.github.io/bio594_spring19/), and [Special Topics in R](https://rhodyrstats.github.io/special_topics_in_r).
+
 **Jan 2007 – Nov 2016**  Adjunct Assistant Professor, University of Rhode Island, Department of Natural Resources Science, Kingston, RI
   
-  - Team taught in alternating Spring Semesters, with Dr. Peter V. August, Ecology of Fragmented Landscapes (NRS 534) a graduate level [seminar course in Landscape Ecology](http://www.edc.uri.edu/nrs/classes/nrs534/). Course included readings and group discussion of the concepts and principles of landscape ecology.  Team taught with Drs. Rachel Schwartz and Harrison Dekker, [Special Topics in R](https://rhodyrstats.github.io/special_topics_in_r). Also team taught with Drs. Peter V August and Adam Smith, a [scientific computing survey course](http://scicomp2014.edc.uri.edu) focusing on R, version control, and reproducible research.  Provided guest lecture on R in CSC 592 Programming For Scientists during Fall 2014.
+  - Team taught in alternating Spring Semesters, with Dr. Peter V. August, Ecology of Fragmented Landscapes (NRS 534) a graduate level [seminar course in Landscape Ecology](http://www.edc.uri.edu/nrs/classes/nrs534/). Course included readings and group discussion of the concepts and principles of landscape ecology.  Also team taught with Drs. Peter V August and Adam Smith, a [scientific computing survey course](http://scicomp2014.edc.uri.edu) focusing on R, version control, and reproducible research.  Provided guest lecture on R in CSC 592 Programming For Scientists during Fall 2014.
 
 
 **Aug 2005 – May 2006**  Postdoctoral Teaching Fellow, U.S. Coast Guard Academy, Department of Science, Marine Sciences Section, New London, CT
@@ -135,6 +139,7 @@ output:
   
 Submitted
       
+  - Raposa, K. B., R. L. Weber, W. Ferguson, J. W. Hollister, R. Rozsa, N. Maher, A. Gettman. (Submitted).  Drainage enhancement effects on a waterlogged Rhode Island (USA) salt marsh. Submitted to Estuarine, Coastal, and Shelf Science.
   - Nojavan, F. A., B. J. Kreakie, J. W. Hollister, S. S. Qian. (Submitted). Rethinking the Lake Trophic State Index. PeerJ. [GitHub](https://github.com/USEPA/rethinking_tsi)
        
 2010 - Present
@@ -254,6 +259,8 @@ Submitted
 **Bootcamps, Workshops, and Panels**
 
 2010 - Present
+  
+  - Hollister, J. W. (2019). Introduction to R.  Invited by RI NSF EPSCoR, Coastal Ecology Assessment Innovation and Modeling and INBRE, Univeristy of Rhode Island, June 2019. [GitHub](https://github.com/jhollist/intro_r_workshop_c-aims) 
   
   - Litterman, R., S. Shivers, H. Dekker, R. Schwartz, and J. W. Hollister. (2019). Data Carpentry Social Science Workshop. Co-hosted with rhodyRstats and URI Coastal Institute. University of Rhode Island, Kingston, RI. January 2019. [GitHub](https://rhodyrstats.github.io/2019-01-15-uri/).
       

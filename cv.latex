@@ -162,7 +162,7 @@ $endif$
 $if(footerdate)$
   \rfoot{\today}
 $endif$
-\lfoot{\thepage}
+%%\lfoot{\thepage}
 \renewcommand{\labelitemi}{}
 \widowpenalties 1 10000
 \raggedbottom
